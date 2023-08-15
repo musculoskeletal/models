@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musculoskeletal-models"
+version = "0.1.0"
+description = "Collection of models for the GIAS3 Python package."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "ABI" }]
+
+[project.urls]
+Homepage = "https://github.com/musculoskeletal/pc-models"
