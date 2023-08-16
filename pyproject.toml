@@ -14,7 +14,7 @@ authors = [{ name = "ABI" }]
 Homepage = "https://github.com/musculoskeletal/models"
 
 [tool.setuptools.packages.find]
-where = ["src", "data"]
+where = ["musculoskeletal"]
 
 [tool.setuptools.package-data]
-shape_models = ["*.pc"]
+"models.shape_models" = ["*.pc"]
