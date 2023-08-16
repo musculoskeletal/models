@@ -11,4 +11,10 @@ license = { file = "LICENSE" }
 authors = [{ name = "ABI" }]
 
 [project.urls]
-Homepage = "https://github.com/musculoskeletal/pc-models"
+Homepage = "https://github.com/musculoskeletal/models"
+
+[tool.setuptools.packages.find]
+where = ["src", "data"]
+
+[tool.setuptools.package-data]
+shape_models = ["*.pc"]
