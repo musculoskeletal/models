@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "musculoskeletal-models"
-version = "0.2.1"
+version = "0.2.2"
 description = "Collection of musculoskeletal principal component models, used by the GIAS3 Python package."
 readme = "README.md"
 license = { text = "Mozilla Public License 2.0 (MPL-2.0)" }
