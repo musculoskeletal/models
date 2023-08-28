@@ -3,8 +3,8 @@ from pathlib import Path
 
 _ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 
-_MODEL_DIRECTORIES = ['shape_models']
-_MODEL_TYPES = ['.pc']
+_MODEL_DIRECTORIES = ['shape_models', 'atlas_meshes']
+_MODEL_TYPES = ['.pc', '.geof', '.ens', '.mesh']
 
 
 def get_model_path(model_path):
