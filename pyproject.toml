@@ -18,3 +18,4 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 "musculoskeletal.models.shape_models" = ["*.pc"]
+"musculoskeletal.models.atlas_meshes" = ["*.geof", "*.ens", "*.mesh"]
