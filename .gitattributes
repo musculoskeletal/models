@@ -1,5 +1,2 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
-
-# Ensure that .pc files will always have LF line endings on checkout.
-*.pc text eol=lf
